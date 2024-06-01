@@ -16,5 +16,5 @@ jobs:
         with:
           server: ftp.fouraxiz.com
           username: u602336656.4axiz
-          password: 4axiz.coM123
+          password: ${{ secrets.AUTODEPLOY_PASSWORD }}
   
